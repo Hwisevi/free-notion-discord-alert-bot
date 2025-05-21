@@ -25,8 +25,8 @@ jobs:
 
     - name: Run notification script
       env:
-        NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-        NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
-        DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        NOTION_API_KEY: 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
+        NOTION_DATABASE_ID: 1fa6ac36f09180e28b0de7f3b500534c
+        DISCORD_WEBHOOK_URL: https://discord.com/api/webhooks/1374711262436524052/VwtliynQZuU0uctmUdUIpw2TxeAzmQ3sduZX_gtUwX2nIf4nkAt4LisPXBxW6AZT90EN
       run: |
         python script.py
